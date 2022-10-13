@@ -29,3 +29,20 @@ So as you can see in the above output that where there is a number which is mult
 - 12 is a multiple of 3, so Fizz will be printed.
 - 13 and 14 are not the multiples of 3 or 5, so they both will be printed as it is.
 - Because 15 is a multiple of 3 and 5, FizzBuzz will be printed in place of 15. and so on...
+
+```doctest
+#for-in loop that traverses numbers from 1 to 100
+for num in range(1,101):
+  #checking that number is divisible by both 3 and 5
+  if(num%3==0 and num%5==0):
+    print("FizzBuzz")
+  #checking that number is divisible by 3
+  elif(num%3 == 0):
+    print("Fizz")
+  #checking that number is divisible by 5
+  elif(num%5 == 0):
+    print("Buzz")
+  #And if not divisible by either of them print num as it is
+  else:
+    print(num)
+```
