@@ -1,3 +1,12 @@
+## Introduction to Fizzbuzz Program in Python
+
+In the Fizz, Buzz, and Fizz Buzz groups, the programming assignment Fizz-Buzz demonstrates the division of numbers. Assume the user is given the number 'n,' and they are asked to display the string representations of all the numbers from 1 to n. However, there are some restrictions, such as:
+- If the number can be divided by 3, it will output Fizz instead of the number.
+- If the number is divisible by 5, the result will display Buzz instead of the number.
+- And if the given number is divisible by both 3 and 5, Fizz Buzz will be printed instead of the number.
+- If the number cannot be divided by 3 or 5, it will be printed as a string.
+
+
 ## Example to Show Python Program for the Fizz Buzz
 - Input: Take the numbers as input from the user, separated by commas (",").
 1,2,3...100
